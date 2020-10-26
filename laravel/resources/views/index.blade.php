@@ -12,10 +12,10 @@
             @foreach ($students as $student)
 
                 <div class="student">
-                <p>Name: <span>{{$students->name}}</span></p>
-                <p>Lastame: <span>{{$students->lastname}}</span></p>
-                <p>Gender: <span>{{$students->gender}}</span></p>
-                <p>Birthday: <span>{{$students->date_of_birth}}</span></p>
+                <p>Name: <span>{{$student->name}}</span></p>
+                <p>Lastame: <span>{{$student->lastname}}</span></p>
+                <p>Gender: <span>{{$student->gender}}</span></p>
+                <p>Birthday: <span>{{$student->date_of_birth}}</span></p>
                 </div>
                 
             @endforeach
